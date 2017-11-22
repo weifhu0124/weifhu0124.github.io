@@ -30,8 +30,8 @@ body {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #006600;
-    color: white;
+    background-color: #ddd;
+    color: black;
 }
 
 /*style the header*/
