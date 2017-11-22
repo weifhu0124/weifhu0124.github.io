@@ -5,6 +5,11 @@ body {
   line-height: 1.75rem;
 }
 
+a {
+    float: none;
+    color: #66ccff;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -76,4 +81,13 @@ body {
 .fa-linkedin {
     background: transparent;
     color: #0077B5;
+}
+
+/*Style content page*/
+.content{
+    text-align: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
