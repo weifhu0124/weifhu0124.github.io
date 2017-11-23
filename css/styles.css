@@ -65,6 +65,12 @@ a {
 }
 
 /* Set a specific color for each brand */
+/*Email*/
+.fa-envelope {
+    background: transparent;
+    color: #dd4b39;
+}
+
 /*Github*/
 .fa-github {
     background: transparent;
