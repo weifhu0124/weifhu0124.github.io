@@ -30,13 +30,47 @@
     <a href="project.html">Project</a>
     <a href="contact.html">Contact</a>
   </div>
+  <br>
+  <div class="slideshow-container">
+    <div class="slides fade">
+      <div class="number">1 / 4</div>
+      <img src="img/im1.jpg" style="width:100%">
+    </div>
 
+    <div class="slides fade">
+      <div class="number">2 / 4</div>
+      <img src="img/im2.jpg" style="width:100%">
+    </div>
+
+    <div class="slides fade">
+      <div class="number">3 / 4</div>
+      <img src="img/im3.jpg" style="width:100%">
+    </div>
+
+    <div class="slides fade">
+      <div class="number">4 / 4</div>
+      <img src="img/im4.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
   <div class="content" align="center">
     <p class="intro">
       My name is Weifeng (Wei) Hu, an undergraduate student at the University of Michigan studying Computer Science. I am from China and this is my 
       sixth year in the United States. My primary interest is in <b>machine learning with data analysis</b>. I have gained technical experience from various 
       <a href="internship.html">internships</a> and <a href="project.html">projects</a>, as well as undergraduate courses in machine learning 
       and data mining at Michigan. 
+    </p>
+    <p>
+      I am a huge proponents of a healthy work-life balance. Outside of Computer Science, I like to travel, watch movies and play sports. I have been to 12 states in the US, Japan and Costa Rica. It has always been interesting to me to see the different cultures around the world. Moreover, I love playing badminton and basketball, and I am a huge NFL fan.
     </p>
   </div>
 
@@ -46,6 +80,6 @@
     <a href="https://www.facebook.com/hweifeng1" target="_blank" class="fa fa-facebook"></a>
     <a href="https://www.linkedin.com/in/weifeng-hu-7b7364105/" target="_blank" class="fa fa-linkedin"></a>
   </div>
-  <script src="js/scripts.js"></script>
+  <script src="js/slide.js"></script>
 </body>
 </html>
