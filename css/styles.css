@@ -89,6 +89,26 @@ a {
     color: #0077B5;
 }
 
+.fa-university {
+  background: transparent;
+  color:#000;
+}
+
+.fa-database {
+  background: transparent;
+  color: #000;
+}
+
+.fa-cogs {
+  background: transparent;
+  color: #000;
+}
+
+.fa-android{
+  background: transparent;
+  color: #000;
+}
+
 /*Style content page*/
 .content{
     text-align: left;
