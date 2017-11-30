@@ -6,8 +6,15 @@ body {
 }
 
 a {
+  float: none;
+  color: #515151;
+  text-decoration: none;
+}
+
+.intro a{
     float: none;
     color: #66ccff;
+    text-decoration: underline;
 }
 
 /* Add a black background color to the top navigation */
@@ -208,6 +215,18 @@ a {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+}
+
+.list-items a{
+  float: none;
+  color: #515151;
+  text-align: left;
+}
+
+.list-items a:hover{
+  float: none;
+  color: #ccc;
+  text-align: left;
 }
 
 .sublist{
