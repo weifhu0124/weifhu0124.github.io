@@ -280,3 +280,7 @@ div.panel {
 .description{
   padding: 0 18px;
 }
+
+.selfie{
+  border-radius: 50%;
+}
