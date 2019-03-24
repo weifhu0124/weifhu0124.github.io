@@ -33,19 +33,45 @@
   <div class="topnav" id="nav">
     <a href="index.html">Home</a>
     <a href="education.html">Education</a>
-    <a class="active" href="publication.html">Publication</a>
+    <a href="publication.html">Publication</a>
     <a href="internship.html">Internship</a>
     <a href="project.html">Project</a>
-    <a href="misc.html">Misc</a>
+    <a class="active" href="misc.html">Misc</a>
+  </div> 
+  <br>
+  <div class="content" align="center"> 
+    <div class="slideshow-container">
+      <div class="slides fade">
+        <div class="number">1 / 4</div>
+        <img src="img/im1.jpg" style="width:100%">
+      </div>
+
+      <div class="slides fade">
+        <div class="number">2 / 4</div>
+        <img src="img/im2.jpg" style="width:100%">
+      </div>
+
+      <div class="slides fade">
+        <div class="number">3 / 4</div>
+        <img src="img/im3.jpg" style="width:100%">
+      </div>
+
+      <div class="slides fade">
+        <div class="number">4 / 4</div>
+        <img src="img/im4.jpg" style="width:100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
   </div>
-    <ul class="list-items" align="center" style="list-style-type:none">
-    <li class="gan">
-      <a href="http://saiconference.com/IntelliSys" class="fa fa-newspaper-o"" target="_blank"><b> Predicting the Success of Kickstarter Projects in the US at Launch Time</b></a><br>
-      <ul style="list-style-type:disc">
-        Accepted
-      </ul>
-    </li>
-    <br>
-  </ul>
+  <script src="js/slide.js"></script>
 </body>
 </html>
