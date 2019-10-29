@@ -67,8 +67,19 @@ a {
     border-radius: 50%;
 }
 
+.ai {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
 /* Add a hover effect if you want */
 .fa:hover {
+    opacity: 0.7;
+}
+
+.ai:hover {
     opacity: 0.7;
 }
 
@@ -95,6 +106,12 @@ a {
 .fa-linkedin {
     background: transparent;
     color: #0077B5;
+}
+
+/* Google Scholar */
+.ai-google-scholar-square {
+  background: transparent;
+  color: #E74C3C;
 }
 
 .fa-university {
