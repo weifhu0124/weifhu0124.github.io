@@ -240,9 +240,21 @@ a {
   text-align: left;
 }
 
+.list-items i{
+  float: none;
+  color: #515151;
+  text-align: left;
+}
+
 .list-items a:hover{
   float: none;
   color: #ccc;
+  text-align: left;
+}
+
+.list-items i:hover{
+  float: none;
+  color: #000000;
   text-align: left;
 }
 
