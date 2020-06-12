@@ -313,3 +313,9 @@ div.panel {
 .selfie{
   border-radius: 50%;
 }
+
+li a {
+  float: none;
+  color: #66ccff;
+  text-decoration: underline;
+}
