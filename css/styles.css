@@ -11,6 +11,12 @@ a {
   text-decoration: none;
 }
 
+.intro a:hover{
+  float: none;
+  color: #ccc;
+  text-align: left;
+}
+
 .intro a{
     float: none;
     color: #66ccff;
@@ -316,6 +322,16 @@ div.panel {
 
 li a {
   float: none;
+  color: #66ccff;
+}
+
+li a:hover{
+  float: none;
+  color: #ccc;
+  text-align: left;
+}
+
+li a.list-link {
   color: #66ccff;
   text-decoration: underline;
 }
