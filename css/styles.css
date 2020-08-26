@@ -68,7 +68,7 @@ a {
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     border-radius: 50%;
 }
