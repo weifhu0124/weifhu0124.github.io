@@ -348,3 +348,12 @@ li a.list-link {
 .sticky + .content {
   padding-top: 60px;
 }
+
+.icon_symbol {
+  height: 2.5rem;
+}
+
+.description {
+  font-weight: bold;
+  color: #3360ff;
+}
