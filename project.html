@@ -46,19 +46,20 @@
     <a href="misc.html">Misc</a>
   </div>
     <ul class="list-items" align="center" style="list-style-type:none">
-    <li class="political_tweets">
-      <a href="https://github.com/weifhu0124/democrat_republican_tweets" class="fa fa-twitter" target="_blank" rel="noopener noreferrer"><b> Democrats vs. Republicans Tweet Sentiment &#xf08e;</b></a><br>
+    <li class="agentic_rag">
+      <a href="https://github.com/weifhu0124/LangGraph/tree/main/agentic_rag" class="fa fa-twitter" target="_blank" rel="noopener noreferrer"><b> Adaptive Self-RAG for Amazon Agentic AI Oﬀerings &#xf08e;</b></a><br>
       <ul style="list-style-type:disc">
-        <li>Trained a NLP classifier that identified the political sentiment of a tweet </li>
-        <li>Developed a website that visualized the LIME explanation of the model prediction </li>
+        <li>Built a self-refining RAG system with LangGraph using a Chroma vector store to answer technical questions on Bedrock AgentCore, Amazon Q Business, and Amazon Q Developer. </li>
+        <li>Designed a multi-agent evaluation loop where specialized LLM agents check answers for hallucinations, factual grounding, and alignment with retrieved context. </li>
+        <li>Implemented a router agent that classifies out-of-scope queries and automatically triggers web search via Tavily for questions unrelated to Amazon’s Agentic AI offerings. </li>
       </ul>
     </li>
     <br>
-    <li class="code_comment">
-      <a href="https://github.com/weifhu0124/cse253FinalProj" class="fa fa-code-fork" target="_blank" rel="noopener noreferrer"><b> Automatic Comment Generation for Python Code &#xf08e;</b></a><br>
+    <li class="reflexion">
+      <a href="https://github.com/weifhu0124/LangGraph/tree/main/reflexion_agent" class="fa fa-code-fork" target="_blank" rel="noopener noreferrer"><b> Reflexion Agent on Stock Picking Strategy &#xf08e;</b></a><br>
       <ul style="list-style-type:disc">
-        <li>Wrote a GRU sequence to sequence model with attention that generated descriptive comments given Python code </li>
-        <li>Worked on structural based traversal on Python abstract syntax tree that encoded structure information</li>
+        <li>Built an AI agent that performs Tavily search to draft an essay describing stock-picking strategies.</li>
+        <li>• Implemented a Reflexion-style self-improvement loop using a critic agent that evaluates reasoning quality and iteratively revises the draft for clarity and accuracy.</li>
       </ul>
     </li>
     <br>
